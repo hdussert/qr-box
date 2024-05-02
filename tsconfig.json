@@ -1,4 +1,9 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@hooks/*": ["./hooks/*"]
+    }
+  },
   "extends": "expo/tsconfig.base"
 }
